@@ -16,7 +16,9 @@ set grid
 set xlabel " X lablel name "
 set ylabel" Y label name"
 set title " Title of the plot"
-set border lw 2  # border width
+set border lw 2    # border width
+set xrange [1:5]   #To adjest xaxis RANGE from lower value to higher value
+set yrange [0:10]  # To adjest Y axis RANGE from lower to higher vslue
 #----------------plotting-----------------------------------#
 #plotting file.dat using coumn 1 and 2 with lines and keeping legend for graph.
 #w l : with lines
